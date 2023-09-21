@@ -4,7 +4,7 @@
   "description": "UI automated test for SauceDemo",
   "main": "SauceDemo.cy.js",
   "scripts": {
-    "test": "cypress run"
+    "cypress:run": "cypress run"
   },
   "author": "",
   "license": "ISC"
