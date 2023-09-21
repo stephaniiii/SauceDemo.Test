@@ -21,7 +21,7 @@ jobs:
 
       - name: Run API tests
         run: |
-          postman collection run "your-api-collection-uuid"
+          postman collection run "14900923-b0cf65dd-c076-4a7d-9793-6fe34103f23d"
 
   ui-tests:
     runs-on: ubuntu-latest
