@@ -38,6 +38,8 @@ jobs:
         run: npm install cypress
 
       - name: Run Cypress tests
-        run: npm run cypress:run
-
+        run: |
+          export CYPRESS_BASE_URL=https://www.example.com
+          export CYPRESS_INTEGRATION_FOLDER=cypress/e2e
+          npm run cypress:run
     
